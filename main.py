@@ -38,6 +38,8 @@ app = dash.Dash(__name__, external_stylesheets=stylesheets,
 
 server = app.server  # needed for Heroku to connect to
 
+
+
 app.layout = dbc.Container([
     dbc.Card([
         dbc.CardBody([
